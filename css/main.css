@@ -37,6 +37,27 @@ footer {
     text-align: center;
 }
 
+h2 {
+    color: #509dd2;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: suburbana;
+    letter-spacing: 5px;
+}
+
+h3 {
+    color: #06561d;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-family: anson;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+p {
+    margin: 0;
+}
+
 .hidden-header {
     position: absolute;
     top: -1px;
