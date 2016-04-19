@@ -196,6 +196,46 @@ nav a {
     border: 0;
 }
 
+#award img {
+    max-width: 100%;
+}
+
+form label {
+    margin-top: 15px;
+    display: block;
+}
+
+form input,
+form textarea {
+    border: 0.3px solid gray;
+    padding: 5px 10px;
+    color: gray;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background: #fafafa;
+}
+
+.button {
+    color: white;
+    text-decoration: none;
+    padding: 4px 10px;
+    display: inline-block;
+    background: linear-gradient(to bottom, #06561d 0%, #043712 100%);
+    box-shadow: 1px 1px 3px 1px rgba(0, 1, 1, 1);
+    border: none;
+    -webkit-appearance: none;
+    width: auto;
+}
+
+#contact .button {
+    margin-right: 3px;
+}
+
+#contact .buttons {
+    margin-top: 20px;
+}
+
 @media (min-width: 400px) {
     .front-square {
         width: calc(50% - 6px);
