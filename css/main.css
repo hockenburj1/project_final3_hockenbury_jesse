@@ -130,6 +130,14 @@ p {
     color: white;
 }
 
+.fill-image {
+    padding: 0;
+}
+
+.fill-image img {
+    width: 100%;
+}
+
 @media (min-width: 400px) {
     .front-square {
         width: calc(50% - 6px);
