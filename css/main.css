@@ -1,3 +1,13 @@
+@font-face {
+    font-family: suburbana;
+    src: url("../fonts/Suburbana.ttf");
+}
+
+@font-face {
+    font-family: anson;
+    src: url("../fonts/anson-regular-webfont.ttf");
+}
+
 body {
     background-image: url("../img/stars.jpg");
     box-sizing: border-box;
@@ -75,4 +85,17 @@ p {
 .banner {
     display: block;
     width: 100%;
+}
+
+@media (min-width: 768px) {
+    main {
+        width: 70%;
+        float: left;
+    }
+
+    aside {
+        width: calc(30% - 10px);
+        margin-left: 10px;
+        float: left;
+    }
 }
