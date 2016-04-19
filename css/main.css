@@ -39,6 +39,10 @@ section {
     overflow: hidden;
 }
 
+header {
+    padding: 2px;
+}
+
 footer {
     margin-top: 10px;
     padding: 10px;
@@ -54,6 +58,7 @@ h2 {
     margin-bottom: 5px;
     font-family: suburbana;
     letter-spacing: 5px;
+    font-size: 1.4em;
 }
 
 h3 {
@@ -101,9 +106,34 @@ p {
     padding-top: 10px;
 }
 
+#front-squares {
+    padding: 5px;
+}
+
 #front-squares img {
-    max-width: calc(25% - 5px);
-    padding-right: 5px;
+    max-width: 100%;
+}
+
+.front-square {
+    position: relative;
+    float: left;
+}
+
+.front-square-link {
+    position: absolute;
+    bottom: 10px;
+    display: block;
+    padding: 5px 10px;
+    background: rgba(63, 63, 63, 0.75);
+    color: white;
+}
+
+@media (min-width: 400px) {
+    .front-square {
+        width: calc(50% - 6px);
+        margin-left: 3px;
+        margin-right: 3px;
+    }
 }
 
 @media (min-width: 768px) {
@@ -116,5 +146,11 @@ p {
         width: calc(30% - 10px);
         margin-left: 10px;
         float: left;
+    }
+
+    .front-square {
+        max-width: calc(25% - 6px);
+        margin-right: 3px;
+        margin-left: 3px;
     }
 }
