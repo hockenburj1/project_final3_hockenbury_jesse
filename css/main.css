@@ -1,3 +1,19 @@
 body {
     background-image: url("../img/stars.jpg");
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+#container {
+    max-width: 1100px;
+    margin: 10px auto;
+}
+
+header,
+#container {
+    background-color: white;
+    padding: 10px;
 }
