@@ -12,6 +12,8 @@ body {
     background-image: url("../img/stars.jpg");
     box-sizing: border-box;
     font-family: arial;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 * {
@@ -63,11 +65,11 @@ h2 {
 
 h3 {
     color: #06561d;
-    margin-top: 15px;
+    margin-top: 5px;
     margin-bottom: 5px;
-    font-family: anson;
-    font-weight: bold;
-    letter-spacing: 3px;
+    font-family: suburbana;
+    letter-spacing: 5px;
+    font-size: 1.2em;
 }
 
 p {
