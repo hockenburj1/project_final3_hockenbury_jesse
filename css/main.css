@@ -65,3 +65,14 @@ p {
     width: 1px;
     overflow: hidden;
 }
+
+/* Banner */
+
+#promotions {
+    padding: 0;
+}
+
+.banner {
+    display: block;
+    width: 100%;
+}
