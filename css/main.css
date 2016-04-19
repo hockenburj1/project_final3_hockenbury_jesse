@@ -11,6 +11,7 @@
 body {
     background-image: url("../img/stars.jpg");
     box-sizing: border-box;
+    font-family: arial;
 }
 
 * {
@@ -66,6 +67,7 @@ h3 {
 
 p {
     margin: 0;
+    line-height: 1.4;
 }
 
 .hidden-header {
@@ -85,6 +87,23 @@ p {
 .banner {
     display: block;
     width: 100%;
+}
+
+/* Content */
+
+#hours ul {
+    margin: 0;
+    padding: 0;
+}
+
+#hours ul li {
+    list-style: none;
+    padding-top: 10px;
+}
+
+#front-squares img {
+    max-width: calc(25% - 5px);
+    padding-right: 5px;
 }
 
 @media (min-width: 768px) {
