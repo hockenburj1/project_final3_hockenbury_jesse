@@ -250,6 +250,20 @@ form textarea {
     width: 32px;
 }
 
+#menu > section > article {
+    margin-bottom: 10px;
+}
+
+#menu > section > article > img {
+    width: 100px;
+}
+
+.menu-description {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+}
+
 @media (min-width: 400px) {
     .front-square {
         width: calc(50% - 6px);
@@ -274,5 +288,12 @@ form textarea {
         max-width: calc(25% - 6px);
         margin-right: 3px;
         margin-left: 3px;
+    }
+}
+
+@media (min-width: 800px) {
+    #menu > section > article {
+        float: left;
+        width: 50%;
     }
 }
