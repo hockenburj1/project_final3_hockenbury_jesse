@@ -262,6 +262,7 @@ form textarea {
     display: inline-block;
     vertical-align: top;
     margin-left: 10px;
+    width: calc(100% - 120px);
 }
 
 @media (min-width: 400px) {
@@ -291,7 +292,7 @@ form textarea {
     }
 }
 
-@media (min-width: 800px) {
+@media (min-width: 850px) {
     #menu > section > article {
         float: left;
         width: 50%;
