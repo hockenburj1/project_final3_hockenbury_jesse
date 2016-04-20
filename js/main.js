@@ -1,3 +1,5 @@
 $( document ).ready( function() {
-  $( '.rslides' ).responsiveSlides();
+  $( '#mobile-menu-button' ).click( function() {
+      $( 'nav' ).slideToggle();
+  } );
 } );

@@ -85,26 +85,7 @@ p {
     overflow: hidden;
 }
 
-nav {
-    float: right;
-}
 
-nav ul {
-    margin: 0;
-    padding: 0;
-    margin-top: 20px;
-    font-size: 1.1em;
-}
-
-nav li {
-    display: inline;
-    font-weight: bold;
-    margin-right: 20px;
-}
-
-nav a {
-    text-decoration: none;
-}
 
 /* Banner */
 
@@ -265,6 +246,33 @@ form textarea {
     width: calc(100% - 120px);
 }
 
+#mobile-menu-button {
+    float: right;
+    margin-top: 14px;
+    margin-right: 20px;
+}
+
+nav {
+    background-color: navy;
+    display: none;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
 @media (min-width: 400px) {
     .front-square {
         width: calc(50% - 6px);
@@ -296,5 +304,36 @@ form textarea {
     #menu > section > article {
         float: left;
         width: 50%;
+    }
+}
+
+@media (min-width: 615px) {
+    nav {
+        float: right;
+        background-color: transparent;
+        display: block;
+    }
+
+    nav ul {
+        margin: 0;
+        padding: 0;
+        margin-top: 20px;
+        font-size: 1.1em;
+    }
+
+    nav li {
+        display: inline;
+        font-weight: bold;
+        margin-right: 20px;
+        padding: 0;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: #06561d;
+    }
+
+    #mobile-menu-button {
+        display: none;
     }
 }
