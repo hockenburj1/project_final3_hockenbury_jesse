@@ -162,6 +162,7 @@ nav a {
 
 .fill-image img {
     width: 100%;
+    display: block;
 }
 
 .rslides {
@@ -198,6 +199,7 @@ nav a {
 
 #award img {
     max-width: 100%;
+    display: block;
 }
 
 form label {
@@ -238,6 +240,14 @@ form textarea {
 
 #map {
     height: 250px;
+}
+
+#social {
+    margin-top: 15px;
+}
+
+#social img {
+    width: 32px;
 }
 
 @media (min-width: 400px) {
