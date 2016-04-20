@@ -7,7 +7,7 @@
     <link rel="shortcut icon" href="img/favicon.png" type="image/png" />
     <link rel="stylesheet" href="css/vendor/normalize.min.css">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/responsiveslides.css">
+    <link rel="stylesheet" href="css/guardian.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
@@ -15,7 +15,7 @@
         <header>
             <h1 class="hidden-header">Pizza Planet</h1>
             <a href="index.html"><img src="img/logo.png" alt="Pizza Planet" /></a>
-            <div id="mobile-menu-button"><img src="img/menu.png" alt="menu" width="20" /></div> 
+            <div id="mobile-menu-button"><img src="img/menu.png" alt="menu" width="20" /></div>
             <nav>
                 <ul>
                     <li>
@@ -34,24 +34,33 @@
             <section id="map"></section>
             <section>
                 <h2>Contact Us</h2>
-                <form id="contact" name="contact">
-                    <label>Name:</label>
-                    <input type="text" id="contact-name" name="contact-name" />
+                <form id="contact" name="contact" action="javascript:alert('Validation Successful')">
+                    <div>
+                        <label>Name:</label>
+                        <input type="text" id="contactname" name="contactname" required="required" />
+                    </div>
 
-                    <label>E-Mail:</label>
-                    <input type="email" id="contact-email" name="contact-email" />
+                    <div>
+                        <label>E-Mail:</label>
+                        <input type="email" id="contactemail" name="contactemail" required="required" />
+                    </div>
 
-                    <label>Phone:</label>
-                    <input type="tel" id="contact-phone" name="contact-phone" />
+                    <div>
+                        <label>Phone:</label>
+                        <input type="tel" id="contactphone" name="contactphone" />
+                    </div>
 
-                    <label>Message:</label>
-                    <textarea id="contact-message" name="contact-message" rows="6"></textarea>
+                    <div>
+                        <label>Message:</label>
+                        <textarea id="contactmessage" name="contactmessage" rows="6" required="required" ></textarea>
+                    </div>
 
                     <div class="buttons">
                         <input type="submit" class="button" value="Send" />
                         <input type="reset" class="button" value="Reset" />
                     </div>
                 </form>
+
             </section>
         </main>
         <aside>
@@ -90,5 +99,8 @@
    <script src="js/main.js"></script>
    <script src="js/map.js"></script>
 
+   <!-- http://jquery.michaeleisenbraun.com/guardian/ -->
+   <script src="js/jquery.guardian-1.0.min.js"></script>
+   <script src="js/validator.js"></script>
 </body>
 </html>
