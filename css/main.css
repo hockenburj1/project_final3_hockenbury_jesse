@@ -286,6 +286,14 @@ ul {
     padding-bottom: 0;
 }
 
+.store-open {
+    color: green;
+}
+
+.store-closed {
+    color: red;
+}
+
 @media (min-width: 400px) {
     .front-square {
         width: calc(50% - 6px);
