@@ -7,7 +7,6 @@
     <link rel="shortcut icon" href="img/favicon.png" type="image/png" />
     <link rel="stylesheet" href="css/vendor/normalize.min.css">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/guardian.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
@@ -30,39 +29,23 @@
                 </ul>
             </nav>
         </header>
-        <main>
-            <section id="map">
-                <h2 class="hidden-header">Our Location Map</h2>
+        <main id="party">
+            <section class="fill-image">
+                <h2 class="hidden-header">Arcade Imagery</h2>
+                <img src="img/arcade.png" alt="arcade banner" />
             </section>
             <section>
-                <h2>Contact Us</h2>
-                <form id="contact" name="contact" action="javascript:alert('Validation Successful')">
-                    <div>
-                        <label>Name:</label>
-                        <input type="text" id="contactname" name="contactname" required="required" />
-                    </div>
-
-                    <div>
-                        <label>E-Mail:</label>
-                        <input type="email" id="contactemail" name="contactemail" required="required" />
-                    </div>
-
-                    <div>
-                        <label>Phone:</label>
-                        <input type="tel" id="contactphone" name="contactphone" />
-                    </div>
-
-                    <div>
-                        <label>Message:</label>
-                        <textarea id="contactmessage" name="contactmessage" rows="6" required="required" ></textarea>
-                    </div>
-
-                    <div class="buttons">
-                        <input type="submit" class="button" value="Send" />
-                        <input type="reset" class="button" value="Reset" />
-                    </div>
-                </form>
-
+                <h2>Have Us Host A Party For You!</h2>
+                <p>We can host your next party with pizza and arcade games and lots of fun! We will handle all of the hard work of planning and organizing all you have to do is show up.</p>
+            </section>
+            <section>
+                <h3>Whats Included?</h3>
+                <ul>
+                    <li>a private room for party activities</li>
+                    <li>10 1-topping pizzas (serves approximately 25)</li>
+                    <li>a sheet cake that says ahppy birthday</li>
+                    <li>25 preloaded arcade gaming cards</li>
+                </ul>
             </section>
         </main>
         <aside>
@@ -91,18 +74,6 @@
         </footer>
     </div>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-
-    <!-- Google Maps -->
-   <script src="https://maps.googleapis.com/maps/api/js"></script>
-
-   <!-- http://hpneo.github.io/gmaps/ -->
-   <script type="text/javascript" src="https://cdn.rawgit.com/HPNeo/gmaps/master/gmaps.js"></script>
-
    <script src="js/main.js"></script>
-   <script src="js/map.js"></script>
-
-   <!-- http://jquery.michaeleisenbraun.com/guardian/ -->
-   <script src="js/jquery.guardian-1.0.min.js"></script>
-   <script src="js/validator.js"></script>
 </body>
 </html>

@@ -273,6 +273,19 @@ nav a {
     text-decoration: none;
 }
 
+ul {
+    padding: 0;
+}
+
+#party li {
+    list-style-position: inside;
+    padding-bottom: 8px;
+}
+
+#party ul li:last-child {
+    padding-bottom: 0;
+}
+
 @media (min-width: 400px) {
     .front-square {
         width: calc(50% - 6px);
